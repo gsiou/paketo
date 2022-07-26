@@ -7,7 +7,6 @@ const appPath = process.cwd();
 
 // Get version
 const packageJson = require(appPath + '/package.json');
-console.log(packageJson.version);
 const version = packageJson.version;
 const appName = packageJson.name;
 
